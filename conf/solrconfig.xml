@@ -93,6 +93,7 @@
          title_addl_t^2500
          title_added_entry_unstem_search^1500
          title_added_entry_t^1250
+         owners_label_t^2000
          subject_topic_unstem_search^1000
          subject_unstem_search^750
          subject_topic_facet^625
@@ -118,6 +119,7 @@
          title_added_entry_unstem_search^15000
          title_added_entry_t^12500
          subject_topic_unstem_search^10000
+         owners_label_t^8000
          subject_unstem_search^7500
          subject_topic_facet^6250
          subject_t^5000
@@ -148,6 +150,12 @@
          subtitle_unstem_search^25000
          title_addl_unstem_search^10000
          title_t^5000
+         recto_title_1903_t^5000
+         recto_title_1938_t^5000
+         recto_title_1961_t^5000
+         verso_title_1903_t^5000
+         verso_title_1938_t^5000
+         verso_title_1961_t^5000
          subtitle_t^2500
          title_addl_t^100
          title_added_entry_unstem_search^50
@@ -183,6 +191,12 @@
          subject_addl_unstem_search^100
          subject_addl_t^10
        </str>
+       <str name="location_qf">
+         owners_label_t^200
+       </str>
+       <str name="location_pf">
+         owners_label_t^2000
+       </str>
 
        <int name="ps">3</int>
        <float name="tie">0.01</float>
@@ -213,6 +227,7 @@
          subtitle_vern_display,
          url_fulltext_display,
          url_suppl_display,
+         owners_label_display
        </str>
 
        <str name="facet">true</str>
@@ -348,6 +363,13 @@
       <str name="name">title</str>
       <str name="field">title_spell</str>
       <str name="spellcheckIndexDir">./spell_title</str>
+      <str name="accuracy">0.7</str>
+      <str name="buildOnOptimize">true</str>
+    </lst>
+    <lst name="spellchecker">
+      <str name="name">location</str>
+      <str name="field">location_spell</str>
+      <str name="spellcheckIndexDir">./location_title</str>
       <str name="accuracy">0.7</str>
       <str name="buildOnOptimize">true</str>
     </lst>
