@@ -1,7 +1,8 @@
-# itatti-solr-config
-Solr 5.5 config files for Itatti Berenson portal
+# florentine-drawings-solr-config
+Solr 5.5 config files for the Villa I Tatti Florentine Drawings Project
 
-This is the config files that Solr 5 can use.
+
+These are the config file that Solr 5 can use.
 
 Install solr
 
@@ -9,7 +10,7 @@ Make sure you have java 8 installed
 
 Download zip: http://archive.apache.org/dist/lucene/solr/5.5.2/
 ```
-wget http://archive.apache.org/dist/lucene/solr/5.5.2/
+wget http://archive.apache.org/dist/lucene/solr/5.5.2/solr-5.5.2.zip
 ```
 
 Extract
@@ -19,7 +20,7 @@ unzip solr-5.5.2.zip
 
 Clone this repo, it contains the configurations we want to use with our portal
 ```
-git clone https://github.com/thisismattmiller/itatti-solr-config
+git clone https://github.com/villaitatti/florentine-drawings-solr-config
 ```
 
 Start solr
