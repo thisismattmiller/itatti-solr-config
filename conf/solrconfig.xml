@@ -227,7 +227,14 @@
          subtitle_vern_display,
          url_fulltext_display,
          url_suppl_display,
-         owners_label_display
+         owners_label_display,
+         image_page_display,
+         image_thumb_display,
+         image_plate_display,
+         image_bm_display,
+         contributors_t,
+         contributors_alt_t,
+         contributors_ulan_t
        </str>
 
        <str name="facet">true</str>
