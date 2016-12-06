@@ -234,7 +234,8 @@
          image_bm_display,
          contributors_t,
          contributors_alt_t,
-         contributors_ulan_t
+         contributors_ulan_t,
+         inventory_number_s
        </str>
 
        <str name="facet">true</str>
