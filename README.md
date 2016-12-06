@@ -30,7 +30,7 @@ bin/solr start
 
 Create the core with our config, use the path to where you git cloned above
 ```
-bin/solr create_core -c blacklight-core -d /path/to/your/git/directory/itatti-solr-config/conf
+bin/solr create_core -c blacklight-core -d florentine-drawings-solr-config/conf
 ```
 
 To Update
@@ -39,5 +39,6 @@ Delete the core, restart and create it again with the updated config info
 ```
 bin/solr delete -c blacklight-core
 bin/solr restart
-bin/solr create_core -c blacklight-core -d /path/to/your/git/directory/itatti-solr-config/conf
+bin/solr create_core -c blacklight-core -d florentine-drawings-solr-config/conf
+
 ```
