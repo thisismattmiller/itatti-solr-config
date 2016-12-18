@@ -108,6 +108,8 @@
          title_series_t^10
          isbn_t
          text
+         inventory_number_s^1000
+         inventory_number^1000
        </str>
        <str name="pf">
          title_unstem_search^1000000
@@ -132,6 +134,8 @@
          title_series_unstem_search^250
          title_series_t^100
          text^10
+         inventory_number_s^1000
+         inventory_number^1000
        </str>
        <str name="author_qf">
          author_unstem_search^200
@@ -197,7 +201,12 @@
        <str name="location_pf">
          owners_label_t^2000
        </str>
-
+       <str name="inventory_number_qf">
+         inventory_number^200
+       </str>
+       <str name="inventory_number_pf">
+         inventory_number^2000
+       </str>
        <int name="ps">3</int>
        <float name="tie">0.01</float>
 
@@ -235,7 +244,9 @@
          contributors_t,
          contributors_alt_t,
          contributors_ulan_t,
-         inventory_number_s
+         inventory_number_s,
+         inventory_number,
+         image_plate_number_s
        </str>
 
        <str name="facet">true</str>
