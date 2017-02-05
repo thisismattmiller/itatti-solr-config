@@ -247,7 +247,9 @@
          inventory_number_s,
          inventory_number,
          image_plate_number_s,
-         thumbnail_url_s
+         thumbnail_url_s,
+         museum_image_url_display,
+         museum_image_text_display
        </str>
 
        <str name="facet">true</str>
